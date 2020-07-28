@@ -3,7 +3,7 @@ client = discord.Client()  # starts the discord client.
 
 @client.event  # event decorator/wrapper. More on decorators here: https://pythonprogramming.net/decorators-intermediate-python-tutorial/
 async def on_ready():  # method expected by client. This runs once when connected
-    print(f'We have logged in as {client.user}')  # notification of login.
+    print("hello world")  # notification of login.
 
 
 @client.event
